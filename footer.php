@@ -19,6 +19,13 @@
 			<h3>Get Lucky Club</h3>
 			<p><a href="#">Click Here</a> to sign up for our email list and receive lucky benefits!</p>
 			<h3>Careers</h3>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
 		</div>
 	</div>
 
