@@ -143,4 +143,34 @@ html, body {
     #footer .widget p {
       padding-bottom: 1em; }
 
+.tweets {
+  padding-bottom: 2rem; }
+  .tweets li {
+    display: block;
+    background: url("../img/twitter.png") left center no-repeat;
+    background-size: 2.35714rem auto;
+    padding: 1em 0;
+    padding-left: 3.07143rem; }
+
+.social {
+  padding-bottom: 2rem;
+  margin: 0 -.5em; }
+  .social a {
+    height: 2.85714rem;
+    width: 2.85714rem;
+    display: inline-block;
+    background: url("../img/twitter.png") center center no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    text-indent: -99999px;
+    margin: 0 .5em; }
+    .social a.fb {
+      background-image: url("../img/facebook.png"); }
+    .social a.instagram {
+      background-image: url("../img/instagram.png"); }
+    .social a.google {
+      background-image: url("../img/gplus.png"); }
+    .social a.yelp {
+      background-image: url("../img/yelp.png"); }
+
 /*# sourceMappingURL=style.css.map */

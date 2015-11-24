@@ -32,10 +32,10 @@
 			</ul>
 			<div class="social">
 				<a href="#" class="fb">Facebook</a>
-				<a href="#" class="fb">Facebook</a>
-				<a href="#" class="fb">Facebook</a>
-				<a href="#" class="fb">Facebook</a>
-				<a href="#" class="fb">Facebook</a>
+				<a href="#" class="twitter">Facebook</a>
+				<a href="#" class="google">Facebook</a>
+				<a href="#" class="instagram">Facebook</a>
+				<a href="#" class="yelp">Facebook</a>
 			</div>
 
 			<p>&copy; Copyright 2015 <a href="#">Bagel13</a>. All Rights Reserved.</p>

@@ -114,3 +114,41 @@ html, body {
 		}
 	}
 }
+
+.tweets {
+	padding-bottom: 2rem;
+	li {
+		display: block;
+		background: url('../img/twitter.png') left center no-repeat;
+		background-size: trem(33px) auto;
+		padding: 1em 0;
+		padding-left: trem(43px);
+	}
+}
+
+.social {
+	padding-bottom: 2rem;
+	margin: 0 -.5em;
+	a {
+		height: trem(40px);
+		width: trem(40px);
+		display: inline-block;
+		background: url('../img/twitter.png') center center no-repeat;
+		background-size: contain;
+		overflow: hidden;
+		text-indent: -99999px;
+		margin: 0 .5em;
+		&.fb {
+			background-image: url('../img/facebook.png');
+		}
+		&.instagram {
+			background-image: url('../img/instagram.png');
+		}
+		&.google {
+			background-image: url('../img/gplus.png');
+		}
+		&.yelp {
+			background-image: url('../img/yelp.png');
+		}
+	}
+}
