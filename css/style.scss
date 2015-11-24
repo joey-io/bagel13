@@ -1,0 +1,116 @@
+$tablet: 980px;
+$mobile: 768px;
+
+@import 'starter_pack.scss';
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Slabo+13px);
+
+html, body {
+	font-family: 'Oswald', sans-serif;
+	font-size: $base_font_size;
+	background: $secondary_lighter;
+	line-height: 1.368em;
+	@media(max-width: 1100px) {
+		font-size: 1.25vw;
+	}
+	
+}
+
+.serif {
+	font-family: 'Slabo 13px', serif;
+}
+.sans {
+	font-family: 'Oswald', sans-serif;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+#header {
+	font-size: trem(22px);
+	background: $primary;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	a {
+		color: inherit;
+		text-decoration: none;
+		padding: 0 .8em;
+		text-transform: uppercase;
+	}
+	ul {
+		li {
+			color: $secondary;
+			display: inline-block;
+			padding: 2rem 0;
+			vertical-align: top;
+			& + li {
+				&:not(.logo):not(.logo + li) {
+					&:before {
+						content: '|';
+						display: inline-block;
+					}
+				}
+			}
+			&.logo {
+				width: trem(320px);
+				text-indent: -99999px;
+				overflow: hidden;
+				position: relative;
+				margin-bottom: -15%;
+				padding: 0;
+				box-shadow: 0 0 1rem rgba(0,0,0, .8);
+				a {
+					padding-bottom: 55%;
+					display: block;
+					background: url('../img/logo.png');
+					background-size: cover;
+					background-repeat: no-repeat;
+				}
+			}
+		}
+	}
+}
+
+.flexslider {
+	border: none;
+	margin: 0;
+}
+
+#footer {
+	padding: 2rem 0;
+	.widget {
+		float: left;
+		width: 33.33%;
+		color: $primary;
+		padding: 0 2rem;
+		strong {
+			font-weight: 700;
+		}
+		@extend .serif;
+		& + .widget {
+			border-left: 2px solid $primary;
+		}
+		h3 {
+			font-weight: 700;
+			font-size: trem(22px);
+			text-transform: uppercase;
+			text-decoration: underline;
+			margin-bottom: 1rem;
+			padding-top: .5rem;
+			@extend .sans;
+		}
+		a {
+			color: inherit;
+			text-decoration: none;
+			font-weight: 700;
+		}
+		p {
+			padding-bottom: 1em;
+		}
+	}
+}
