@@ -6,6 +6,7 @@
 	<meta http-equiv="Content-Type" content="text/html;utf-8">
 	<link rel="stylesheet" href="css/mods/flexslider.css" />
 	<link rel="stylesheet" href="css/style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -15,7 +16,7 @@
 			<ul>
 				<li><a href="#">Menu</a></li>
 				<li><a href="#">Our Story</a></li>
-				<li><a href="#">Get Lucky</a></li>
+				<li><a href="get_lucky.php">Get Lucky</a></li>
 				<li class="logo"><a href="#">Home</a></li>
 				<li><a href="#">Locations</a></li>
 				<li><a href="#">Careers</a></li>

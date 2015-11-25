@@ -9,12 +9,21 @@ html, body {
 	font-family: 'Oswald', sans-serif;
 	font-size: $base_font_size;
 	background: $secondary_lighter;
-	line-height: 1.368em;
+	line-height: 1.368;
 	@media(max-width: 1100px) {
 		font-size: 1.25vw;
 	}
-	
+	@media ( max-width: 767px ) {
+		font-size: 14px;
+	}
 }
+
+body {
+	background: url('../img/bg.png') top center no-repeat;
+	background-size: cover;
+}
+
+
 
 .serif {
 	font-family: 'Slabo 13px', serif;
@@ -83,6 +92,7 @@ html, body {
 
 #footer {
 	padding: 2rem 0;
+	background: $secondary_lighter;
 	.widget {
 		float: left;
 		width: 33.33%;
@@ -152,3 +162,64 @@ html, body {
 		}
 	}
 }
+
+.entry-content {
+	padding-top: trem(220px);
+	padding-bottom: 2rem;
+	font-size: trem(20px);
+	p {
+		@extend .serif;
+	}
+	h1 {
+		font-size: trem(150px);
+		text-align: center;
+		line-height: 1em;
+		text-transform: uppercase;
+		color: $primary;
+		font-weight: 700;
+		margin-bottom: 1rem;
+	}
+	.h1 {
+		max-width: 80%;
+		padding: 1rem 0;
+	}
+}
+
+.centered {
+	text-align: center;
+}
+
+.get_lucky {
+	form {
+		max-width: trem(400px);
+		margin: 1rem auto;
+	}
+}
+
+input:not([type="submit"]) {
+	display: block;
+	width: 100%;
+	font-size: 1em;
+	margin-bottom: .45em;
+	border-radius: .45em;
+	padding: .25em;
+	@extend .serif;
+	-webkit-appearance: none;
+}
+
+.getLucky__btn {
+	background: url('../img/submit.png') center center no-repeat;
+	background-size: contain;
+	-webkit-appearance: none;
+	border: none;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: trem(160px);
+	height: trem(160px);
+	cursor: pointer;
+}
+
+
+
+
+
