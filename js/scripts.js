@@ -4,3 +4,8 @@ $('.flexslider').flexslider({
 	slideshow: true,
 	slideshowSpeed: 5000
 });
+
+$('#nav-icon3').click(function(){
+	$(this).toggleClass('open');
+	$('body').toggleClass('shown-mobile-menu');
+});
