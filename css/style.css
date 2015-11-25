@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Slabo+13px);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic);
 *,
 *:after,
 *:before {
@@ -76,8 +76,12 @@ body {
   background-size: 100% 100%;
   background-attachment: fixed; }
 
-.serif, #footer .widget, .entry-content p, input:not([type="submit"]) {
-  font-family: 'Slabo 13px', serif; }
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.serif, #footer .widget, .entry-content p, input:not([type="submit"]), h3 {
+  font-family: 'Arvo', serif; }
 
 .sans, #footer .widget h3 {
   font-family: 'Oswald', sans-serif; }
@@ -91,7 +95,7 @@ body {
 #header {
   font-size: 1.57143rem;
   background: #563455;
-  position: fixed;
+  position: fixedr;
   z-index: 10;
   width: 100%; }
   #header a {
@@ -185,7 +189,8 @@ body {
 .entry-content {
   padding-top: 15.71429rem;
   padding-bottom: 2rem;
-  font-size: 1.42857rem; }
+  font-size: 1.42857rem;
+  color: #563455; }
   .entry-content h1 {
     font-size: 10.71429rem;
     text-align: center;
@@ -255,6 +260,26 @@ input:not([type="submit"]) {
         color: #563455;
         text-decoration: none;
         text-transform: uppercase; }
+
+h3 {
+  text-transform: uppercase; }
+  h3 a {
+    color: #eca816;
+    font-weight: 700; }
+
+.container.halfed {
+  display: table;
+  width: 100%;
+  margin-bottom: 4rem; }
+  .container.halfed .container--half {
+    display: table-cell;
+    vertical-align: middle; }
+    .container.halfed .container--half iframe {
+      width: 550px;
+      max-width: 100%;
+      float: right;
+      border: 3px solid #563455 !important;
+      border-radius: 3px; }
 
 .our_story {
   background-image: url("../img/bg_light.jpg"); }

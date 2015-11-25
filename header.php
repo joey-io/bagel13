@@ -18,7 +18,7 @@
 				<li><a href="our_story.php">Our Story</a></li>
 				<li><a href="get_lucky.php">Get Lucky</a></li>
 				<li class="logo"><a href="/bagel13">Home</a></li>
-				<li><a href="#">Locations</a></li>
+				<li><a href="locations.php">Locations</a></li>
 				<li><a href="#">Careers</a></li>
 				<li class="menu-item-active"><a href="#">Contact</a></li>
 			</ul>

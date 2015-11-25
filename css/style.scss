@@ -3,7 +3,7 @@ $mobile: 768px;
 
 @import 'starter_pack.scss';
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Slabo+13px);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic);
 
 html, body {
 	font-family: 'Oswald', sans-serif;
@@ -24,10 +24,15 @@ body {
 	background-attachment: fixed;
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
 
 
 .serif {
-	font-family: 'Slabo 13px', serif;
+	font-family: 'Arvo', serif;
 }
 .sans {
 	font-family: 'Oswald', sans-serif;
@@ -43,7 +48,7 @@ body {
 #header {
 	font-size: trem(22px);
 	background: $primary;
-	position: fixed;
+	position: fixedr;
 	z-index: 10;
 	width: 100%;
 	a {
@@ -168,6 +173,7 @@ body {
 	padding-top: trem(220px);
 	padding-bottom: 2rem;
 	font-size: trem(20px);
+	color: $primary;
 	p {
 		@extend .serif;
 	}
@@ -257,6 +263,33 @@ input:not([type="submit"]) {
 				text-decoration: none;
 				text-transform: uppercase;
 			}
+		}
+	}
+}
+
+h3 {
+	@extend .serif;
+	text-transform: uppercase;
+	a {
+		color: $secondary;
+		font-weight: 700;
+	}
+}
+
+
+.container.halfed {
+	display: table;
+	width: 100%;
+	margin-bottom:4rem;
+	.container--half {
+		display: table-cell;
+		vertical-align: middle;
+		iframe {
+			width: 550px;
+			max-width: 100%;
+			float: right;
+			border: 3px solid $primary!important;
+			border-radius: 3px;
 		}
 	}
 }
