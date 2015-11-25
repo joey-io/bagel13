@@ -477,7 +477,7 @@ hr {
     background-position: bottom center !important; }
 
   #ourstory1 {
-    padding-top: 4rem !important; }
+    padding-top: 0 !important; }
     #ourstory1 .story_img {
       display: none !important; }
 
@@ -497,6 +497,13 @@ hr {
     display: none; }
 
   .s2 {
-    display: block; } }
+    display: block; }
+
+  #slider {
+    margin-left: -74vw;
+    padding-top: 5rem; }
+
+  .ourstorycontent {
+    padding-top: 5rem !important; } }
 
 /*# sourceMappingURL=style.css.map */

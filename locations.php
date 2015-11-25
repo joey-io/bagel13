@@ -2,7 +2,7 @@
 	<div class="container entry-content halfed">
 		<div class="container--half">
 			<h3><strong>Melbourne</strong>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Map</a></h3>
-			<p>1301 South Babcock St., Melbourne FL 32901</p>
+			<p>1301 South Babcock St.,<br/>Melbourne FL 32901</p>
 			<p><strong>Phone:</strong> <a href="tel:321.302.6723">321.302.6723</a></p>
 			<p><strong>Mon-Fri</strong> 5:30a - 2:30p</p>
 			<p><strong>Sat</strong> 6a - 1p</p>

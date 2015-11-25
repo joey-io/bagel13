@@ -17,7 +17,7 @@
 				<li><a href="#">Menu</a></li>
 				<li><a href="our_story.php">Our Story</a></li>
 				<li><a href="get_lucky.php">Get Lucky</a></li>
-				<li class="logo"><a href="/bagel13">Home</a></li>
+				<li class="logo"><a href="index.php">Home</a></li>
 				<li><a href="locations.php">Locations</a></li>
 				<li><a href="careers.php">Careers</a></li>
 				<li class="menu-item-active"><a href="#">Contact</a></li>
@@ -25,7 +25,7 @@
 		</nav>
 	</div>
 	<div class="menu-icon">
-		<a class="logo-mobile" href="/bagel13">Home</a>
+		<a class="logo-mobile" href="index.php">Home</a>
 		<div id="nav-icon3">
 		  <span></span>
 		  <span></span>
