@@ -20,7 +20,8 @@ html, body {
 
 body {
 	background: url('../img/bg.png') top center no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
+	background-attachment: fixed;
 }
 
 
@@ -42,7 +43,7 @@ body {
 #header {
 	font-size: trem(22px);
 	background: $primary;
-	position: absolute;
+	position: fixed;
 	z-index: 10;
 	width: 100%;
 	a {
@@ -219,6 +220,62 @@ input:not([type="submit"]) {
 	cursor: pointer;
 }
 
+.ourstorycontent {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.ourStory__container {
+	min-height: 100vh;
+	display: table;
+
+	> div {
+		padding-top: trem(220px);
+		display: table-cell;
+		padding-bottom: 2rem;
+	}
+	.story_img {
+		width: 45%;
+		background: url('../img/ourstory1.jpg') top center no-repeat;
+		background-size: cover;
+	}
+	.story_text {
+		padding-left: 3rem;
+		.h1 {
+			width: 100%;
+			max-width: 100%;
+		}
+		p {
+			padding: 1em 0; 
+		}
+		.learn_more {
+			font-weight: 700;
+			text-align: right;
+			padding-right: 2rem;
+			a {
+				color: $primary;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+.our_story {
+	background-image: url('../img/bg_light.jpg');
+}
+
+strong {
+	font-weight: 700;
+}
+
+#ourstory2.ourStory__container .story_img {
+	background-image: url('../img/ourstory2.jpg');
+}
+
+#ourstory3.ourStory__container .story_img {
+	background-image: url('../img/ourstory3.jpg');
+}
 
 
 
